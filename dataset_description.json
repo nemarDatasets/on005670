@@ -1,10 +1,16 @@
 {
-    "Name": "SEEG Resting State Recording",
-    "BIDSVersion": "1.10.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Prof. Pengfei Xu"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005670.v1.0.0",
-    "License": "CC0"
+  "Name": "SEEG Resting State Recording",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Prof. Pengfei Xu"
+  ],
+  "DatasetDOI": "10.82901/nemar.on005670",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005670.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }

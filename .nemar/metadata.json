@@ -2,50 +2,19 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SEEG Resting State Recording",
+  "description": "This dataset comprises stereoelectroencephalography (SEEG) resting state recordings from two patients with epilepsy. The recordings were obtained using Sinovation SDE-08 medical-grade depth electrodes with standardized specifications. This resource provides raw neurophysiological data suitable for investigating intracranial brain activity patterns and epileptogenic networks.",
+  "methods_description": "Resting state SEEG recordings were acquired using Sinovation SDE-08 medical-grade stainless steel depth electrodes (0.8 mm diameter, 2 mm contact length, 3.5 mm inter-contact spacing, 8-16 contacts per electrode).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Prof. Pengfei Xu": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005670.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005670",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005670",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "This dataset comprises stereoelectroencephalography (SEEG) resting state recordings from two patients with epilepsy. The recordings were obtained using Sinovation SDE-08 medical-grade depth electrodes with standardized specifications. This resource provides raw intracranial electrophysiological data suitable for investigating resting state brain activity and functional connectivity in epilepsy.",
-  "methods_description": "Resting state SEEG recordings were acquired using Sinovation SDE-08 medical-grade stainless steel depth electrodes (0.8 mm diameter, 2 mm contact length, 3.5 mm inter-contact spacing, 8-16 contacts per electrode).",
   "keywords": [
     {
-      "term": "SEEG"
+      "term": "stereoelectroencephalography"
     },
     {
-      "term": "stereoelectroencephalography"
+      "term": "SEEG"
     },
     {
       "term": "resting state"
@@ -56,11 +25,43 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "intracranial recording"
+      "term": "depth electrodes"
     },
     {
-      "term": "depth electrodes"
+      "term": "intracranial recording"
     }
   ],
-  "source_hash": "a976ae9d07b6fea91f46b140c22ea01fa0d86bfec49617f731eea71d725b9269"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005670",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005670",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005670.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "743.2 MB (3 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "3840cf1854f0bca716f7cf04c4e54c0039accbc51393cd15042a216aa166ad06"
 }

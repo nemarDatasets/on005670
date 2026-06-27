@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005670",
+  "source": "openneuro",
+  "source_id": "ds005670",
+  "title": "SEEG Resting State Recording",
+  "authors": {
+    "Prof. Pengfei Xu": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005670.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.10.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ]
+}

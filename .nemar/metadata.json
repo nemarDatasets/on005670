@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SEEG Resting State Recording",
-  "description": "This dataset comprises stereoelectroencephalography (SEEG) resting state recordings from two patients with epilepsy. The recordings were obtained using Sinovation SDE-08 medical-grade depth electrodes with standardized specifications. This resource provides raw neurophysiological data suitable for investigating intracranial brain activity patterns and epileptogenic networks.",
-  "methods_description": "Resting state SEEG recordings were acquired using Sinovation SDE-08 medical-grade stainless steel depth electrodes (0.8 mm diameter, 2 mm contact length, 3.5 mm inter-contact spacing, 8-16 contacts per electrode).",
+  "description": "This dataset comprises stereoelectroencephalography (SEEG) resting state recordings acquired from two patients with epilepsy. The intracranial recordings were obtained using depth electrodes implanted for clinical evaluation purposes, providing insight into resting-state neural activity in epileptic patients.",
+  "methods_description": "Recordings were obtained using Sinovation SDE-08 medical-grade stainless steel depth electrodes (0.8 mm diameter, 2 mm contact length, 1.5 mm insulator length, 3.5 mm inter-contact spacing, 8-16 contacts per electrode) implanted in patients with epilepsy during resting state.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,13 +11,7 @@
   },
   "keywords": [
     {
-      "term": "stereoelectroencephalography"
-    },
-    {
       "term": "SEEG"
-    },
-    {
-      "term": "resting state"
     },
     {
       "term": "Epilepsy",
@@ -25,10 +19,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "depth electrodes"
+      "term": "Resting state"
     },
     {
-      "term": "intracranial recording"
+      "term": "Intracranial electrodes"
+    },
+    {
+      "term": "Depth electrodes"
     }
   ],
   "related_identifiers": [
